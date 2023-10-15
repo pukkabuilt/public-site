@@ -2,19 +2,26 @@ html {
     background: #FFF7EB;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
 h1 {
     font-family: monospace;
     color: #607966;
     text-align: center;
-    font-size: 300%;
 }
 
-.centered {
-    width: 50%;
-    height: 50%;
-    margin: auto;
-    position: fixed;
-    top: 0; left: 0; bottom: 0; right: 0;
+div.layout{
+    display: flex
+}
+
+div.permanent-column {
+    height: 100vh;
+    width: 30vw;
+    background-color: #FFDEAD;
+    padding: 2em;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -22,6 +29,16 @@ h1 {
 
 .connect{
     text-align: center;
+}
+
+div.main-logo-container {
+    display: flex;
+    justify-content: center;
+}
+
+div.content {
+    background: #FFF3E0;
+    width:70vw
 }
 
 .main-logo{
@@ -43,11 +60,9 @@ p {
 }
 
 p.main {
-    font-size: 150%;
 }
 
 p.description {
-    font-size: 100%;
 }
 
 a {
@@ -55,9 +70,9 @@ a {
 }
 
 a:link, a:visited, a:active {
-    color: #FFCD82;
+    color: #F59505;
 }
 
 a:hover {
-    color: #FFB13C;
+    color: #F59505;
 }
