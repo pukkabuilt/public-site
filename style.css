@@ -2,19 +2,31 @@ html {
     background: #FFF7EB;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
 h1 {
     font-family: monospace;
     color: #607966;
     text-align: center;
-    font-size: 300%;
 }
 
-.centered {
-    width: 50%;
-    height: 50%;
-    margin: auto;
-    position: fixed;
-    top: 0; left: 0; bottom: 0; right: 0;
+h2, h3{
+    font-family: monospace;
+    color: #607966;
+}
+
+div.layout{
+    display: flex
+}
+
+div.permanent-column {
+    height: 100vh;
+    width: 30vw;
+    background-color: #FFDEAD;
+    padding: 2em;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -22,6 +34,34 @@ h1 {
 
 .connect{
     text-align: center;
+}
+
+div.main-logo-container {
+    display: flex;
+    justify-content: center;
+}
+
+div.content {
+    background: #FFF3E0;
+    width:70vw
+}
+
+div.project {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+}
+
+div.gallery {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0.5rem;
+}
+
+img.gallery-picture {
+    display: flex;
+    width: 49%;
+    height: auto;
 }
 
 .main-logo{
@@ -39,15 +79,14 @@ h1 {
 p {
     font-family: monospace;
     color: #545454;
-    text-align: center;
 }
 
 p.main {
-    font-size: 150%;
+    text-align: center;
 }
 
 p.description {
-    font-size: 100%;
+    margin-top: 0rem;
 }
 
 a {
@@ -55,9 +94,9 @@ a {
 }
 
 a:link, a:visited, a:active {
-    color: #FFCD82;
+    color: #F59505;
 }
 
 a:hover {
-    color: #FFB13C;
+    color: #DB8000;
 }
