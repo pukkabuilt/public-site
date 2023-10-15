@@ -64,6 +64,12 @@ img.gallery-picture {
     height: auto;
 }
 
+img.gallery-picture-portrait {
+    display: flex;
+    width: 30%;
+    height: auto;
+}
+
 .main-logo{
     height: 150px;
     display: flex;
