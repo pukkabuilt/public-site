@@ -13,6 +13,11 @@ h1 {
     text-align: center;
 }
 
+h2, h3{
+    font-family: monospace;
+    color: #607966;
+}
+
 div.layout{
     display: flex
 }
@@ -41,6 +46,24 @@ div.content {
     width:70vw
 }
 
+div.project {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+}
+
+div.gallery {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0.5rem;
+}
+
+img.gallery-picture {
+    display: flex;
+    width: 49%;
+    height: auto;
+}
+
 .main-logo{
     height: 150px;
     display: flex;
@@ -56,13 +79,14 @@ div.content {
 p {
     font-family: monospace;
     color: #545454;
-    text-align: center;
 }
 
 p.main {
+    text-align: center;
 }
 
 p.description {
+    margin-top: 0rem;
 }
 
 a {
@@ -74,5 +98,5 @@ a:link, a:visited, a:active {
 }
 
 a:hover {
-    color: #F59505;
+    color: #DB8000;
 }
