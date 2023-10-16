@@ -1,0 +1,8 @@
+name = 'Theme name'
+license = 'MIT'
+licenselink = 'https://github.com/owner/repo/LICENSE'
+description = 'Theme description'
+
+[author]
+  name = 'José Ulises Niño Rivera'
+  homepage = 'https://pukkabuilt.org'

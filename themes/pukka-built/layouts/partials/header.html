@@ -1,0 +1,10 @@
+<div class="main-logo-container">
+{{ $image := resources.Get "images/logo.png" }}
+{{ with $image }}
+  <img src="{{ .RelPermalink }}" class="main-logo">
+{{ end }}
+</div>
+
+{{ if not .IsHome }}
+    {{ partial "header_info.html" . }}
+{{ end }}

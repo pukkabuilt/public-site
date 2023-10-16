@@ -1,0 +1,107 @@
+/*General*/
+
+html {
+    background: #FFF7EB;
+}
+
+body {
+    margin: 0rem;
+    padding: 0rem;
+}
+
+/* Typography */
+
+h1 {
+    font-family: monospace;
+    color: #607966;
+    text-align: center;
+}
+
+h2, h3{
+    font-family: monospace;
+    color: #607966;
+}
+
+p {
+    font-family: monospace;
+    color: #545454;
+}
+
+p.main {
+    text-align: center;
+}
+
+p.description {
+    margin-top: 0rem;
+}
+
+/* Layout */
+
+header {
+    background-color: #FFDEAD;
+    display: flex;
+    justify-content: center;
+}
+
+div.main-logo-container {
+    display: flex;
+    justify-content: center;
+}
+
+div.header-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+div.content {
+    background: #FFF3E0;
+    width:70vw
+}
+
+div.project {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+}
+
+div.gallery {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0.5rem;
+}
+
+/* Images */
+
+img.gallery-picture {
+    display: flex;
+    width: 49%;
+    height: auto;
+}
+
+img.gallery-picture-portrait {
+    display: flex;
+    width: 30%;
+    height: auto;
+}
+
+.main-logo{
+    height: 120px;
+    display: flex;
+    padding: 0.5rem;
+}
+
+/* Links */
+
+a {
+    font-family: monospace;
+    text-decoration: none;
+}
+
+a:link, a:visited, a:active {
+    color: #F59505;
+}
+
+a:hover {
+    color: #DB8000;
+}
