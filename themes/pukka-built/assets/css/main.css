@@ -72,6 +72,10 @@ div.menu-item {
 div.project-index-item {
     padding-left: 1rem;
 }
+
+div.project-content {
+    padding-left: 0.5rem;
+}
 /* Images */
 
 .main-logo{
