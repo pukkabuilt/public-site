@@ -69,16 +69,15 @@ div.menu-item {
     border-radius: 0.25rem;
 }
 
+div.project-index-item {
+    padding-left: 1rem;
+}
 /* Images */
 
 .main-logo{
     height: 120px;
     display: flex;
     padding: 0.5rem;
-}
-
-img.thumbnail {
-    width: 200px;
 }
 
 /* Links */

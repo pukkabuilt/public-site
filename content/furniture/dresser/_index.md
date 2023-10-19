@@ -2,11 +2,11 @@
 title = 'Dresser'
 date = 2023-10-18T04:55:24-07:00
 draft = false
-type = 'gallery'
-[[resources]]
-  name = 'thumbnail'
-  src = 'images/front_view.jpeg'
+layout = 'project'
 +++
+
+{{< img src="front_view.jpeg" >}}
+{{< img src="top_view.jpeg" >}}
 
 _Material:_ Birch
 

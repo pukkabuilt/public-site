@@ -1,11 +1,13 @@
 {{ define "main" }}
   <h1>{{ .Title }}</h1>
   {{ .Content }}
+
   {{ range .Pages }}
-    <div>
+    <div class="project-index-item">
       <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
 
       {{ .Summary }}
     </div>
   {{ end }}
+
 {{ end }}
