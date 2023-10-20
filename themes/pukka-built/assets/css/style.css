@@ -624,6 +624,10 @@ video {
   text-align: center;
 }
 
+.font-mono {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
@@ -652,27 +656,6 @@ video {
 .text-p-color {
   --tw-text-opacity: 1;
   color: rgb(84 84 84 / var(--tw-text-opacity));
-}
-
-/* Typography */
-
-h1 {
-  font-family: monospace;
-}
-
-h2, h3{
-  font-family: monospace;
-}
-
-p {
-  font-family: monospace;
-}
-
-/* Links */
-
-a {
-  font-family: monospace;
-  text-decoration: none;
 }
 
 .visited\:text-link-color:visited {
