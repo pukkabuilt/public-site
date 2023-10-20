@@ -7,6 +7,9 @@ layout = 'project'
 
 _Subject:_ Portrait photography
 
+This is a series of my sister working on ceramic. The place was small and cozy, and incredibly warm because of the kiln.
+I hope to reflect all those things in the style.
+
 <!--more-->
 
 {{< img src="ceramics1.jpg" >}}
@@ -15,6 +18,3 @@ _Subject:_ Portrait photography
 {{< img src="ceramics4.jpg" >}}
 {{< img src="ceramics5.jpg" >}}
 {{< img src="ceramics6.jpg" >}}
-
-This is a series of my sister working on ceramic. The place was small and cozy, and incredibly warm because of the kiln.
-I hope to reflect all those things in the style.
