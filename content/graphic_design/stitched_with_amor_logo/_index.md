@@ -13,8 +13,10 @@ _Status:_ In progress
 
 <!--more-->
 
-{{< img src="sketch.jpeg" >}}
-{{< img src="vector.png" >}}
+{{< gallery >}}
+    {{< img src="sketch.jpeg" >}}
+    {{< img src="vector.png" >}}
+{{</ gallery >}}
 
 This is the first iteration of the [Stitched with Amor Logo](https://www.instagram.com/stitchedwithamor/),
 a premier Crochet brand from Hanoi, Vietnam.

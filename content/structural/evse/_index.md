@@ -9,8 +9,10 @@ _Status:_ Complete ✅
 
 <!--more-->
 
-{{< img src="inside.jpeg" >}}
-{{< img src="inside_complete.jpeg" >}}
-{{< img src="outside.jpeg" >}}
+{{< gallery >}}
+    {{< img src="inside.jpeg" >}}
+    {{< img src="inside_complete.jpeg" >}}
+    {{< img src="outside.jpeg" >}}
+{{</ gallery >}}
 
 EVSE charger with newly run 50A/240V circuit.

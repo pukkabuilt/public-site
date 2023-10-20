@@ -1,7 +1,6 @@
-<div class="main-logo-container">
-{{ $image := resources.Get "images/logo.png" }}
-{{ with $image }}
-  <img src="{{ .RelPermalink }}" class="main-logo">
+<div class="mt-1 flex flex-row justify-center">
+{{ with (resources.Get "images/logo.png").Resize "100x" }}
+  <img src="{{ .RelPermalink }}">
 {{ end }}
 </div>
 

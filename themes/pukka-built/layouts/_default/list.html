@@ -1,12 +1,12 @@
 {{ define "main" }}
-  <h1>{{ .Title }}</h1>
+  <h1 class="py-1 text-h1-color text-xl">{{ .Title }}</h1>
   {{ .Content }}
 
   {{ range .Pages }}
-    <div class="project-index-item">
-      <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+    <div class="mt-1 pl-2">
+      <h2 class="text-h2-color text-lg"><a class="text-link-color visited:text-link-color active:text-link-color hover-text-link-color-hover" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
 
-      <p>{{ .Summary }}</p>
+      <p class="text-p-color">{{ .Summary }}</p>
     </div>
   {{ end }}
 

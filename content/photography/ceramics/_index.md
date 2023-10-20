@@ -12,9 +12,11 @@ I hope to reflect all those things in the style.
 
 <!--more-->
 
-{{< img src="ceramics1.jpg" >}}
-{{< img src="ceramics2.jpg" >}}
-{{< img src="ceramics3.jpg" >}}
-{{< img src="ceramics4.jpg" >}}
-{{< img src="ceramics5.jpg" >}}
-{{< img src="ceramics6.jpg" >}}
+{{< gallery >}}
+    {{< img src="ceramics1.jpg" >}}
+    {{< img src="ceramics2.jpg" >}}
+    {{< img src="ceramics3.jpg" >}}
+    {{< img src="ceramics4.jpg" >}}
+    {{< img src="ceramics5.jpg" >}}
+    {{< img src="ceramics6.jpg" >}}
+{{</ gallery >}}

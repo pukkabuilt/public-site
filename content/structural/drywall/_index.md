@@ -9,12 +9,14 @@ _Status:_ Complete ✅
 
 <!--more-->
 
-{{< img src="one.jpeg" >}}
-{{< img src="two.jpeg" >}}
-{{< img src="three.jpeg" >}}
-{{< img src="four.jpeg" >}}
-{{< img src="five.jpeg" >}}
-{{< img src="six.jpeg" >}}
-{{< img src="seven.jpeg" >}}
+{{< gallery >}}
+    {{< img src="one.jpeg" >}}
+    {{< img src="two.jpeg" >}}
+    {{< img src="three.jpeg" >}}
+    {{< img src="four.jpeg" >}}
+    {{< img src="five.jpeg" >}}
+    {{< img src="six.jpeg" >}}
+    {{< img src="seven.jpeg" >}}
+{{</ gallery >}}
 
 I patched a pretty complex drywall patch for my friends Asif and Miranda

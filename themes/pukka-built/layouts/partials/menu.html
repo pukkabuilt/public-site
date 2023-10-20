@@ -1,7 +1,7 @@
-<div class="menu">
+<div class="py-1 flex flex-wrap justify-center">
   {{- range site.Menus.main }}
-    <div class="menu-item">
-      <a href="{{ .URL }}">{{ .Name }}</a>
+    <div class="bg-menu-item px-1 m-1 rounded">
+      <a class="text-link-color visited:text-link-color active:text-link-color hover-text-link-color-hover" href="{{ .URL }}">{{ .Name }}</a>
     </div>
   {{- end }}
 </div>
