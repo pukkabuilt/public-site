@@ -1,3 +1,8 @@
+{{/*
+	Taken from https://www.brycewray.com/posts/2022/06/responsive-optimized-images-hugo/
+	and modified to work with local page budles.
+*/}}
+
 {{- $respSizes := slice "320" "640" "960" "1280" "1600" "1920" -}}
 {{/*
 	These are breakpoints, in pixels.
@@ -38,26 +43,9 @@
 {{- $actualImg := $src.Resize "640x jpg" -}}
 {{/*
 	Now we'll handle the LQIP background for the div that will contain
-	the image content; the conditional at the top controls whether we're
-	doing inline styling --- which is a no-no for a tight Content
-	Security Policy (CSP). Here, it checks whether we're using nonces
-	(and thus a tight CSP), as spec'd in the site config file.
-	If so, it creates a new class, named with an md5 hash for the value
-	of $src, that the div can use to provide the LQIP background.
-	Otherwise, it inserts inline styling.
-	**THEREFORE** . . .
-	If you don't have a problem with inline styling, feel free to use only
-	the second option and avoid the conditional altogether.
+	the image content.
 */}}
-{{- $imgBd5 := md5 $src -}}
-{{- if .Site.Params.Nonces -}}
-	<style>
-		.imgB-{{ $imgBd5 }} { {{ $CFPstyle | safeCSS }} }
-	</style>
-	<div class="relative imgB-{{ $imgBd5 }} bg-center">
-{{- else -}}
-	<div class="relative bg-center" style="{{ $CFPstyle | safeCSS }}">
-{{- end -}}
+<div class="relative bg-center" style="{{ $CFPstyle | safeCSS }}">
 {{/*
 	Now we'll build the `picture` which modern browsers use to decide
 	which image, and which format thereof, to show. Remember to put

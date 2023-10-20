@@ -1,0 +1,17 @@
+{
+  "name": "pukka-built-theme",
+  "version": "0.1.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tailwindcss -i ./assets/css/main.css -o ./assets/css/style.css",
+    "watch": "npx tailwindcss -i ./assets/css/main.css -o ./assets/css/style.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  },
+  "description": ""
+}
