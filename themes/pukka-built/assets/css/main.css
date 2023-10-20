@@ -67,6 +67,8 @@ div.menu-item {
     padding-left: 0.25rem;
     padding-right: 0.25rem;
     border-radius: 0.25rem;
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
 }
 
 div.project-index-item {
