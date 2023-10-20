@@ -6,5 +6,6 @@ draft = false
 +++
 
 Photography is my oldest art-form, as such my treasure trove is too large to display here.
-A constant feed will start living in the Lightroom community space. However, that is also truncated.
+A constant feed will start living in the [Lightroom community space](https://lightroom.adobe.com/u/joseulninori).
+However, that collection is also truncated.
 Here in the Pukka Built website I will have a rotating display of my latest work.
