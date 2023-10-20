@@ -1,6 +1,6 @@
-<div class="menu">
+<div class="py-1 flex flex-wrap justify-center">
   {{- range site.Menus.main }}
-    <div class="menu-item">
+    <div class="bg-menu-item px-1 m-1 rounded">
       <a href="{{ .URL }}">{{ .Name }}</a>
     </div>
   {{- end }}

@@ -14,14 +14,16 @@ danish mid-century furniture alongside the exciting work of contemporary Taiwane
 
 <!--more-->
 
-{{< img src="木平台1.jpg" >}}
-{{< img src="木平台2.jpg" >}}
-{{< img src="木平台3.jpg" >}}
-{{< img src="木平台4.jpg" >}}
-{{< img src="木平台5.jpg" >}}
-{{< img src="木平台6.jpg" >}}
-{{< img src="木平台7.jpg" >}}
-{{< img src="木平台8.jpg" >}}
-{{< img src="木平台9.jpg" >}}
-{{< img src="木平台10.jpg" >}}
-{{< img src="木平台11.jpg" >}}
+{{< gallery >}}
+    {{< img src="木平台1.jpg" >}}
+    {{< img src="木平台2.jpg" >}}
+    {{< img src="木平台3.jpg" >}}
+    {{< img src="木平台4.jpg" >}}
+    {{< img src="木平台5.jpg" >}}
+    {{< img src="木平台6.jpg" >}}
+    {{< img src="木平台7.jpg" >}}
+    {{< img src="木平台8.jpg" >}}
+    {{< img src="木平台9.jpg" >}}
+    {{< img src="木平台10.jpg" >}}
+    {{< img src="木平台11.jpg" >}}
+{{</ gallery >}}

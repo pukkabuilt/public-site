@@ -4,7 +4,17 @@
 module.exports = {
   content: ["content/**/*.md", "layouts/**/*.html"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'base': '#FFF7EB',
+        'menu-item': '#FAE9CD',
+        'header': '#FFDEAD',
+        'h1-color': '#607966',
+        'h2-color': '#607966',
+        'h3-color': '#607966',
+        'p-color': '#545454',
+      }
+    }
   },
   plugins: [],
 };

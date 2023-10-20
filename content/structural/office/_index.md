@@ -11,9 +11,11 @@ _Status:_ Complete ✅
 
 <!--more-->
 
-{{< img src="brad.jpeg" >}}
-{{< img src="back.jpeg" >}}
-{{< img src="roof.jpeg" >}}
-{{< img src="front.jpeg" >}}
+{{< gallery >}}
+    {{< img src="brad.jpeg" >}}
+    {{< img src="back.jpeg" >}}
+    {{< img src="roof.jpeg" >}}
+    {{< img src="front.jpeg" >}}
+{{</ gallery >}}
 
 I helped my friend Brad build a backyard office at his house. I helped with roofing, siding, electric.

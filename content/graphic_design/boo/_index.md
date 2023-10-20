@@ -13,7 +13,9 @@ _Status:_ Complete ✅
 
 <!--more-->
 
-{{< img src="boo_vector.png" >}}
-{{< img src="boo.jpeg" >}}
+{{< gallery >}}
+    {{< img src="boo_vector.png" >}}
+    {{< img src="boo.jpeg" >}}
+{{</ gallery >}}
 
 This little ghost started their life in Illustrator and made it out into the world in plywood and acrylic.

@@ -2,92 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
-/*General*/
-
-html {
-    background: #FFF7EB;
-}
-
-body {
-    margin: 0rem;
-    padding: 0rem;
-}
-
 /* Typography */
 
 h1 {
     font-family: monospace;
-    color: #607966;
-    text-align: center;
 }
 
 h2, h3{
     font-family: monospace;
-    color: #607966;
 }
 
 p {
     font-family: monospace;
-    color: #545454;
-}
-
-p.main {
-    text-align: center;
-}
-
-p.description {
-    margin-top: 0rem;
-}
-
-/* Layout */
-
-header {
-    background-color: #FFDEAD;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-div.main-logo-container {
-    display: flex;
-    justify-content: center;
-}
-
-div.header-info {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-div.menu {
-    display: flex;
-    justify-content: center;
-    padding-bottom: 0.5rem;
-    flex-wrap: wrap;
-}
-
-div.menu-item {
-    background-color: #fae9cd;
-    padding-left: 0.25rem;
-    padding-right: 0.25rem;
-    border-radius: 0.25rem;
-    margin-left: 0.25rem;
-    margin-right: 0.25rem;
-}
-
-div.project-index-item {
-    padding-left: 1rem;
-}
-
-div.project-content {
-    padding-left: 0.5rem;
-}
-/* Images */
-
-.main-logo{
-    height: 120px;
-    display: flex;
-    padding: 0.5rem;
 }
 
 /* Links */

@@ -24,35 +24,8 @@
 */}}
 {{- $imgClass := "w-full h-auto animate-fade" -}}
 {{- $dataSzes := "(min-width: 1024px) 100vw, 50vw" -}}
-{{/*
-	Now we'll create the 20-pixel-wide LQIP and turn it into
-	Base64-encoded data, which is better for performance and caching.
-*/}}
-{{- $LQIP_img := $src.Resize "20x jpg" -}}
-{{- $LQIP_b64 := $LQIP_img.Content | base64Encode -}}
-{{/*
-	$CFPstyle is for use in styling the div's background,
-	as you'll see shortly.
-*/}}
-{{- $CFPstyle := printf "%s%s%s" "background: url(data:image/jpeg;base64," $LQIP_b64 "); background-size: cover; background-repeat: no-repeat;" -}}
-{{/*
-	Then, we create a 640-pixel-wide JPG of the image.
-	This will serve as the "fallback" image for that tiny percentage
-	of browsers that don't understand the HTML `picture` tag.
-*/}}
 {{- $actualImg := $src.Resize "640x jpg" -}}
-{{/*
-	Now we'll handle the LQIP background for the div that will contain
-	the image content.
-*/}}
-<div class="relative bg-center" style="{{ $CFPstyle | safeCSS }}">
-{{/*
-	Now we'll build the `picture` which modern browsers use to decide
-	which image, and which format thereof, to show. Remember to put
-	`webp` first, since the browser will use the first format it
-	**can** use, and WebP files usually are smaller. After WebP,
-	the fallback is the universally safe JPG format.
-*/}}
+<div>
 	<picture>
 		<source
 			type="image/webp"
