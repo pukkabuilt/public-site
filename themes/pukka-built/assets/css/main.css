@@ -22,11 +22,3 @@ a {
     font-family: monospace;
     text-decoration: none;
 }
-
-a:link, a:visited, a:active {
-    color: #F59505;
-}
-
-a:hover {
-    color: #DB8000;
-}

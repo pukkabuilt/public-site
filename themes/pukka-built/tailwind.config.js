@@ -13,6 +13,8 @@ module.exports = {
         'h2-color': '#607966',
         'h3-color': '#607966',
         'p-color': '#545454',
+        'link-color': '#F59505',
+        'link-color-hover': '#DB8000',
       }
     }
   },

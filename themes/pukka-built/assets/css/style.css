@@ -686,6 +686,11 @@ video {
   color: rgb(96 121 102 / var(--tw-text-opacity));
 }
 
+.text-link-color {
+  --tw-text-opacity: 1;
+  color: rgb(245 149 5 / var(--tw-text-opacity));
+}
+
 .text-p-color {
   --tw-text-opacity: 1;
   color: rgb(84 84 84 / var(--tw-text-opacity));
@@ -712,12 +717,13 @@ a {
   text-decoration: none;
 }
 
-a:link, a:visited, a:active {
-  color: #F59505;
+.visited\:text-link-color:visited {
+  color: rgb(245 149 5 );
 }
 
-a:hover {
-  color: #DB8000;
+.active\:text-link-color:active {
+  --tw-text-opacity: 1;
+  color: rgb(245 149 5 / var(--tw-text-opacity));
 }
 
 @media (min-width: 768px) {

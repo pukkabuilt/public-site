@@ -4,7 +4,7 @@
 
   {{ range .Pages }}
     <div class="mt-1 pl-2">
-      <h2 class="text-h2-color text-lg"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+      <h2 class="text-h2-color text-lg"><a class="text-link-color visited:text-link-color active:text-link-color hover-text-link-color-hover" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
 
       <p class="text-p-color">{{ .Summary }}</p>
     </div>
