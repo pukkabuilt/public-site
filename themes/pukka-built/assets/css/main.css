@@ -53,17 +53,17 @@ div.header-info {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    line-height: 0.25rem;
 }
 
 div.menu {
     display: flex;
     justify-content: center;
     padding-bottom: 0.5rem;
+    flex-wrap: wrap;
 }
 
 div.menu-item {
-    background-color: #FBE2BB;
+    background-color: #fae9cd;
     padding-left: 0.25rem;
     padding-right: 0.25rem;
     border-radius: 0.25rem;
