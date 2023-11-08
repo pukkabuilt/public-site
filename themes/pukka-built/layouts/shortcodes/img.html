@@ -1,3 +1,5 @@
 {{ with .Page.Resources.GetMatch (.Get "src") }}
-	<img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="">
+	{{ with .Resize "1280x q50" }}
+		<img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="">
+	{{ end }}
 {{ end }}
