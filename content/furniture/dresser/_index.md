@@ -14,12 +14,12 @@ _Status:_ Complete ✅
 <!--more-->
 
 {{< gallery >}}
-    {{< img src="dresser1.jpeg" >}}
-    {{< img src="dresser2.jpeg" >}}
-    {{< img src="dresser3.jpeg" >}}
-    {{< img src="dresser4.jpeg" >}}
-    {{< img src="dresser5.jpeg" >}}
-    {{< img src="dresser6.jpeg" >}}
+    {{< img src="dresser1.jpg" >}}
+    {{< img src="dresser2.jpg" >}}
+    {{< img src="dresser3.jpg" >}}
+    {{< img src="dresser4.jpg" >}}
+    {{< img src="dresser5.jpg" >}}
+    {{< img src="dresser6.jpg" >}}
 {{</ gallery >}}
 
 I made this dresser out of a beatiful two-tone Birch bought from Limback Lumber in Ballard (Seattle, WA).
