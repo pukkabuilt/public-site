@@ -7,7 +7,7 @@ layout = 'project'
 
 _Subject:_ Portrait photography
 
-I had the unbelievable luck to meet Vicky & Jacky of 木平台 in Taipei, Taiwan for a wonderful Sunday afternoon.
+I had the unbelievable luck to meet Vicky & Jack of 木平台 in Taipei, Taiwan for a wonderful Sunday afternoon.
 Jack also took me to his woodworking school in New Taipei City. If you ever find yourself in Taipei please do yourself
 the favor to visit Vicky, and Jack and their amazing gallery [木平台](https://woood.tw) which displays masterful
 danish mid-century furniture alongside the exciting work of contemporary Taiwanese woodworkers.
