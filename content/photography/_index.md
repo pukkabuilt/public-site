@@ -7,7 +7,7 @@ draft = false
 
 Photography is my oldest art form, as such my treasure trove is too large to display here.
 
-The most up-to-date feed lives in the <a class="text-link-color" href="https://lightroom.adobe.com/u/joseulninori">Lightroom community space</a>.
+The most up-to-date feed lives in the [Lightroom community space](https://lightroom.adobe.com/u/joseulninori).
 However, that collection is also truncated.
 
 Here in the Pukka Built website I will have a rotating display of my latest work.
