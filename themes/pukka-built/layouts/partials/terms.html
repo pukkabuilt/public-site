@@ -16,7 +16,7 @@ For a given taxonomy, renders a list of terms assigned to the page.
     <div>{{ $label }}:</div>
     <ul>
       {{- range . }}
-        <li><a class="text-link-color visited:text-link-color active:text-link-color hover-text-link-color-hover" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
+        <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
       {{- end }}
     </ul>
   </div>

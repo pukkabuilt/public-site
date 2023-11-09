@@ -1,7 +1,10 @@
 @tailwind base;
+
+@layer base {
+    a {
+      @apply text-link-color visited:text-link-color active:text-link-color hover-text-link-color-hover;
+    }
+  }
+
 @tailwind components;
 @tailwind utilities;
-
-a {
-    @apply link-color;
-}
