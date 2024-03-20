@@ -1,7 +1,7 @@
-<download_link
+<a
   {{- range $k, $v := .Params -}}
     {{- (printf " %s=%q" $k $v) | safeHTMLAttr -}}
   {{- end -}}
-  >
+  download>
   {{- .Inner | .Page.RenderString -}}
-</download_link>
+</a>
