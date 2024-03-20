@@ -1,6 +1,6 @@
 +++
 menu = 'main'
-title = 'Bedside Tables'
+title = '3D Design'
 date = 2024-04-20T04:59:45-07:00
 draft = false
 +++
