@@ -1,5 +1,5 @@
 +++
-title = 'Bediside Tables'
+title = 'Bedside Tables'
 date = 2024-03-20T04:55:24-07:00
 draft = false
 layout = 'project'
