@@ -25,4 +25,4 @@ _Status:_ Complete ✅
 
 Pukka Built design inspired by Scandinavian Mid-century furniture. These two mahogany bedside tables fit perfectly next
 to a queen size bed. The tapered legs were turned with a table saw jig, and the walnut handles add an accent inspired
-by contemporary Taiwanese furniture I studied during my visit to [木平台]({{< ref "/photography/木平台1" >}}).
+by contemporary Taiwanese furniture I studied during my visit to [木平台]({{< ref "/photography/木平台" >}}).
