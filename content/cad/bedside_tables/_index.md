@@ -18,4 +18,4 @@ Click here to download
     {{< img src="render.png" >}}
 {{</ gallery >}}
 
-3D Design for Pukka Built's recent Mahogany Mid-century bedside tables
+3D Design for Pukka Built's recent [Mahogany Mid-century bedside tables]({{< ref "/woodworking/bedside_tables" >}}).
