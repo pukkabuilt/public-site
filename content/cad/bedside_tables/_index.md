@@ -8,16 +8,14 @@ layout = 'project'
 Online Visulization: [here](https://beta.collaborate.shapr3d.com/v/QiLlW8ULcsdGMxVjttpxT)
 
 Shapr3D Project:
-{{< download_link href="/documents/bedside_tables.shapr">}}
+{{< download_link "/documents/cad/bedside_tables/bedside_tables.shapr">}}
 Click here to download
 {{< /download_link >}}
 
 <!--more-->
 
 {{< gallery >}}
-    {{< img src="workbench.jpg" >}}
+    {{< img src="render.png" >}}
 {{</ gallery >}}
 
-This is my first workbench build. In the months I have worked with this workbench I have modified, and
-modified them as my skills have expanded, my tool arsenal grown (no more ryobi miter or planer --
-replaced by Dewalt's bigger cousins), and interests diversified.
+3D Design for Pukka Built's recent Mahogany Mid-century bedside tables
