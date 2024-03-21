@@ -1,6 +1,6 @@
 +++
-title = 'Bedside Tables'
-date = 2024-03-20T04:55:24-07:00
+title = '{{ replace .File.ContentBaseName "-" " " | title }}'
+date = {{ .Date }}
 draft = false
 layout = 'project'
 +++
@@ -8,7 +8,7 @@ layout = 'project'
 Online Visualization: [here](https://beta.collaborate.shapr3d.com/v/QiLlW8ULcsdGMxVjttpxT)
 
 Shapr3D Project:
-{{< download_link "/documents/cad/bedside_tables/bedside_tables.shapr">}}
+{{< download_link "/documents/cad/{{ replace .File.ContentBaseName \"-\" \" \" | title }}.shapr">}}
 Click here to download
 {{< /download_link >}}
 
@@ -17,5 +17,3 @@ Click here to download
 {{< gallery >}}
     {{< img src="render.png" >}}
 {{</ gallery >}}
-
-3D Design for Pukka Built's recent [Mahogany Mid-century bedside tables]({{< ref "/woodworking/bedside_tables" >}}).
