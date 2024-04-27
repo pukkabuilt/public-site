@@ -1,5 +1,5 @@
 +++
-title = 'Butcher_block'
+title = 'Butcher Block'
 date = 2024-04-16T19:58:10-07:00
 draft = false
 layout = 'project'
