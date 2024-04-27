@@ -19,6 +19,8 @@ _Status:_ in progress
     {{< img src="mantana.jpeg" >}}
     {{< img src="plumbing.jpeg" >}}
     {{< img src="wires.jpeg" >}}
+    {{< img src="facade.jpg" >}}
+    {{< img src="facade2.jpg" >}}
 {{</ gallery >}}
 
 I am helping my friends Cali and Casey build their Tiny Home.
